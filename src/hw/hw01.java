@@ -11,12 +11,12 @@ public class hw01 {
 
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
-		int i = scn.nextInt();
-		System.out.println(to2(i));
+		int v1 = scn.nextInt();
+		System.out.println(to2(v1));
 	}
-	public static String to2(int i) {
-		String str = Integer.toBinaryString(i);
-		return str;
-		
-	}
+	public static String to2(int v1) {
+		if(v1==0)
+		return "";
+		return to2((v1-v1%2)/2)+""+v1%2;
+		}
 }

@@ -21,5 +21,3 @@ public class ex01 {
 		return str;
 	}
 }
-// int i =scn.nextInt();
-// System.out.println(Integer.toBinaryString(i));

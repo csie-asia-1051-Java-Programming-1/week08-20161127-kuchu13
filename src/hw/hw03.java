@@ -16,13 +16,13 @@ public class hw03 {
 		}
 
 	public static int fun(int v1) {
-		if (v1 == 0) {
+		if (v1==0) {
 			return v1;
 		} else {
-			if (v1 % 2 == 1) {
-				return fun(v1 / 2) + 1;
+			if (v1%2==1) {
+				return fun(v1/2) + 1;
 			} else {
-				return fun(v1 / 2);
+				return fun(v1/2);
 			}
 		}
 	}
